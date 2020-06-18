@@ -1,0 +1,30 @@
+{
+  "name": "cypress-testing-assessment-project",
+  "version": "1.0.0",
+  "description": "Learn Cypress.io in website https://opensource-demo.orangehrmlive.com/",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaliadmyt/cypress-assessment.git"
+  },
+  "keywords": [
+    "cypress.io"
+  ],
+  "author": "Amalia Damayanti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amaliadmyt/cypress-assessment/issues"
+  },
+  "homepage": "https://github.com/amaliadmyt/cypress-assessment#readme",
+  "dependencies": {
+    "cypress": "^4.7.0"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^1.6.2",
+    "mocha": "^7.2.0"
+  }
+}
